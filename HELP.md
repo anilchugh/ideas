@@ -6,7 +6,7 @@ Run application - mvn spring-boot:run
 
 Note - See swagger based documentation once application is running
 
-## Add idea using command line:
+## Add idea from command line:
 
 curl --location --request POST 'http://localhost:8080/www.verycoolapp.com/idea/add' \
 --header 'Content-Type: application/json' \
@@ -15,7 +15,7 @@ curl --location --request POST 'http://localhost:8080/www.verycoolapp.com/idea/a
 "description": "idea description"
 }'
 
-## List ideas from command line : 
+## List ideas from command line: 
 
 curl --location --request GET 'http://localhost:8080/www.verycoolapp.com/idea/list'
 
